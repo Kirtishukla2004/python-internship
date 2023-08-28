@@ -1,5 +1,5 @@
 #non parametrizwd function 
-"""def sum_digi():
+def sum_digi():
     a=4
     v=10
     c=a+v
@@ -27,9 +27,9 @@ sum_digi();
 print(subtract(20,3))
 multiply(30,2)
 print(divide())
-"""
-'''from calculator import*
-main();'''
+
+from calculator import*
+main();
 a=int(input("enter digti to check  "))
 temp=a
 s=0
