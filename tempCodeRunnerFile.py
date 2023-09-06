@@ -1,1 +1,1 @@
-val
+def msg():
