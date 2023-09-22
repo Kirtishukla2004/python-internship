@@ -18,7 +18,7 @@ wisthdeaw_btn.grid(row=2, column=0, padx=10, pady=20, ipadx=10, ipady=10)
 fastcash_btn = Button(win, text="Fast cash", bg="grey",
                       font=("bold,30"), bd=2, relief="groove")
 fastcash_btn.grid(row=2, column=1, padx=10, pady=20, ipadx=10, ipady=10)
-balance_btn = Button(win, text="Balance Enauiry", bg="grey",
+balance_btn = Button(win, text="Balance Enquiry", bg="grey",
                      font=("bold,30"), bd=2, relief="groove")
 balance_btn.grid(row=3, column=0, padx=10, pady=20, ipadx=10, ipady=10)
 cheque_btn = Button(win, text="Change pin", bg="grey",
