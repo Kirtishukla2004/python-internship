@@ -8,7 +8,7 @@ def insert():
     sal = salary.get()
 
     try:
-        # Replace these with your SQL Server connection details
+        
         server = 'localhost\SQLEXPRESS'
         database = 'tech'
         username = 'user_2004'
@@ -29,10 +29,15 @@ def insert():
         conn.close()
 
 win =  Tk()
-win.geometry("400x250")
+win.geometry("400x350")
 win.title("Window Application")
 win.config(bg="grey")
 
+
+frame=Frame(win,bg="white",relief="solid",bd=4)
+frame.grid(row=0,column=1)
+lb=Label(frame,text="INSERT NEW USER" ,fg="red",font=("bold",15),bg='white')
+lb.grid(row=0,column=1,ipadx=20,pady=20)
 # Labels
 Label(win, text="id", width=5).grid(row=3, column=0, padx=10, pady=10)
 Label(win, text="name", width=5).grid(row=4, column=0, padx=10, pady=10)
